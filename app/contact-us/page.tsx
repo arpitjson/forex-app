@@ -13,9 +13,9 @@ export default function ContactUs() {
           <div className="flex flex-col lg:flex-row gap-8">
             {/* Contact Us */}
             <div className="lg:w-2/3">
-              <h2 className="text-2xl font-bold text-[#1e3c72] mb-6">
+              <h1 className="text-2xl font-bold text-[#1e3c72] mb-6">
                 Contact Us
-              </h2>
+              </h1>
               <div className="space-y-4">
                 <h2 className="text-xl font-bold">BSR Forex Tours & Travels Pvt. Ltd.</h2>
                 <div>

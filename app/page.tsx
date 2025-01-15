@@ -47,25 +47,25 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <ServiceCard
               title="Foreign Exchange"
-              icon={"/image/fe.png"}
+              icon={"/exchange-rate.png"}
               description="BSR Forex provides the high class customer service and best rates in the market for your any..."
               link="/foreign-exchange"
             />
             <ServiceCard
               title="Ticketing"
-              icon="/image/air.png"
+              icon="/flight-ticket.png"
               description="For conducting International Air Ticketing, BSR Forex is already an approved TRAVEL..."
               link="/ticketing"
             />
             <ServiceCard
               title="Travel Insurance"
-              icon="/image/Insurance.png"
+              icon="/travel-insurance.png"
               description="All types of Overseas Medical insurance policies are available. We offer insurance from leading..."
               link="/travel-insurance"
             />
             <ServiceCard
               title="Money Transfer"
-              icon="/image/icon-transfer-dark.png"
+              icon="/money-transfer.png"
               description="BSR Forex is Limited is approved as a sub partner of Western Union.."
               link="/money-transfer"
             />
@@ -78,13 +78,13 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-[#1e3c72] text-center mb-8">OUR SUPPORTERS</h2>
           <div className="flex justify-center gap-8">
-            <Image
+            {/* <Image
               src="/image/b2.jpg"
               alt="Western Union"
               width={200}
               height={100}
               className="object-contain"
-            />
+            /> */}
             <Image
               src="/image/Western-Union.jpg"
               alt="Western Union"

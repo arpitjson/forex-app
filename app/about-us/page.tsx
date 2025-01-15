@@ -13,9 +13,9 @@ export default function AboutUs() {
           <div className="flex flex-col lg:flex-row gap-8">
             {/* Contact Us */}
             <div className="lg:w-2/3">
-              <h2 className="text-2xl font-bold text-[#1e3c72] mb-6">
+              <h1 className="text-2xl font-bold text-[#1e3c72] mb-6">
                 Contact Us
-              </h2>
+              </h1>
               <div className="rounded-lg  mb-8">
                 <div className="flex gap-8 items-start">
                   <div className="flex-1">
@@ -40,7 +40,7 @@ export default function AboutUs() {
                   </div>
                   <div className="w-64 mt-12">
                     <Image
-                      src="/placeholder.svg"
+                      src="/image/about_us.jpg"
                       alt="About Us"
                       width={256}
                       height={256}

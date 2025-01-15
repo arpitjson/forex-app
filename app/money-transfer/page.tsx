@@ -2,7 +2,7 @@ import EnquiryForm from "@/components/enquiry-form";
 import { HeroCarousel } from "@/components/hero-carousel";
 import Image from "next/image";
 
-export default function TravelInsurance() {
+export default function Ticketing() {
   return (
     <div>
       {/* Hero Carousel */}
@@ -14,35 +14,39 @@ export default function TravelInsurance() {
             {/* Contact Us */}
             <div className="lg:w-2/3">
               <h1 className="text-2xl font-bold text-[#1e3c72] mb-6">
-                Travel Insurance
+                Money Transfer
               </h1>
               <div className="rounded-lg  mb-8">
                 <div className="flex gap-8 items-start">
                   <div className="flex-1">
+                    <h2>
+                      BSR Forex Tours & Travels Limited is an Authorized
+                      Sub-Agent of Western Union
+                    </h2>
                     <ul className="space-y-4">
                       <li>
-                        • All types of Overseas Medical insurance policies are
-                        available
-                      </li>
-                      <li>• We offer insurance from leading and customer</li>
-                      <li>
-                        • Choose from different types of coverage as per your
-                        requirement.
+                        • We are an RBI-approved Full-Fledged Money Changer
+                        (FFMC)
                       </li>
                       <li>
-                        • Policies are available according to the requirement of
-                        client and we give them specific plans as per
-                        requirement.
+                        • Secure, swift, and convenient international money
+                        transfer services
                       </li>
                       <li>
-                        • Premium of policies is the minimum with higher
-                        coverage with the minimum terms and conditions.
+                        • No service charges for receiving money transfers
+                      </li>
+                      <li>
+                        • No bank account required for receiving money transfers
+                      </li>
+                      <li>
+                        • Facilitate worldwide money transfers to and from any
+                        country
                       </li>
                     </ul>
                   </div>
                   <div className="w-64 mt-12">
                     <Image
-                      src="/travel-insurance.png"
+                      src="/money-transfer.png"
                       alt="Travel Insurance"
                       width={256}
                       height={256}

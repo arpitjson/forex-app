@@ -13,7 +13,7 @@ import Autoplay from "embla-carousel-autoplay"
 
 const slides = [
   {
-    image: "/image/b5.jpg",
+    image: "/money_transfer.png",
     title: "Send Money Online",
     features: [
       "Fast and convenient",
@@ -22,7 +22,7 @@ const slides = [
     ]
   },
   {
-    image: "/image/b1.jpg",
+    image: "/image/foreign-exchange.png",
     title: "Foreign Exchange",
     features: [
       "Best market rates",
@@ -31,7 +31,7 @@ const slides = [
     ]
   },
   {
-    image: "/image/b3.jpg",
+    image: "/traval_banner.png",
     title: "Travel Services",
     features: [
       "International ticketing",

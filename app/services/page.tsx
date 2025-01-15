@@ -20,7 +20,7 @@ export default function Services() {
                 className="object-contain"
               />
               <div>
-                <h3 className="text-xl font-bold text-[#1e3c72] mb-2">Foreign Exchange</h3>
+                <h1 className="text-xl font-bold text-[#1e3c72] mb-2">Foreign Exchange</h1>
                 <p className="text-gray-600 mb-2">
                   BSR Forex provides the high class customer service and best rates in the market for your any type of foreign exchange requirements.
                   Foreign Exchange from all countries through of Western Union.
